@@ -1,4 +1,5 @@
 FROM openjdk:8-jdk-alpine
+
 VOLUME /tmp
 WORKDIR .
 RUN mwnw package
